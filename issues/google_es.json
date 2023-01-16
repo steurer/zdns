@@ -1,0 +1,1486 @@
+{
+    // We tried to run it with -all-nameservers flag
+    // In the response we can see the results for ns1-4 of google (IP = 172.217.18.3)
+    // But where are the A queries? In the trace we can see many cached queries....
+    // => Does that mean, that ZDNS is querying Ns1, caching the result and returning it from the cache instead of asking NS2? 
+    // => That would make the first case study in the paper incorrect (and could explain the high-consistency)
+    // Or is it just an issue with the trace?
+    "class": "IN",
+    "data": {
+        "results": [
+            {
+                "nameserver": "ns4.google.com",
+                "result": {
+                    "answers": [
+                        {
+                            "answer": "172.217.18.3",
+                            "class": "IN",
+                            "name": "google.es",
+                            "ttl": 300,
+                            "type": "A"
+                        }
+                    ],
+                    "flags": {
+                        "authenticated": false,
+                        "authoritative": true,
+                        "checking_disabled": false,
+                        "error_code": 0,
+                        "opcode": 0,
+                        "recursion_available": false,
+                        "recursion_desired": false,
+                        "response": true,
+                        "truncated": false
+                    },
+                    "protocol": "udp",
+                    "resolver": "216.239.34.10:53"
+                },
+                "status": "NOERROR"
+            },
+            {
+                "nameserver": "ns4.google.com",
+                "result": {
+                    "answers": [
+                        {
+                            "answer": "172.217.18.3",
+                            "class": "IN",
+                            "name": "google.es",
+                            "ttl": 300,
+                            "type": "A"
+                        }
+                    ],
+                    "flags": {
+                        "authenticated": false,
+                        "authoritative": false,
+                        "checking_disabled": false,
+                        "error_code": 0,
+                        "opcode": 0,
+                        "recursion_available": false,
+                        "recursion_desired": false,
+                        "response": false,
+                        "truncated": false
+                    },
+                    "protocol": "",
+                    "resolver": ""
+                },
+                "status": "NOERROR"
+            },
+            {
+                "nameserver": "ns3.google.com",
+                "result": {
+                    "answers": [
+                        {
+                            "answer": "172.217.18.3",
+                            "class": "IN",
+                            "name": "google.es",
+                            "ttl": 300,
+                            "type": "A"
+                        }
+                    ],
+                    "flags": {
+                        "authenticated": false,
+                        "authoritative": false,
+                        "checking_disabled": false,
+                        "error_code": 0,
+                        "opcode": 0,
+                        "recursion_available": false,
+                        "recursion_desired": false,
+                        "response": false,
+                        "truncated": false
+                    },
+                    "protocol": "",
+                    "resolver": ""
+                },
+                "status": "NOERROR"
+            },
+            {
+                "nameserver": "ns3.google.com",
+                "result": {
+                    "answers": [
+                        {
+                            "answer": "172.217.18.3",
+                            "class": "IN",
+                            "name": "google.es",
+                            "ttl": 300,
+                            "type": "A"
+                        }
+                    ],
+                    "flags": {
+                        "authenticated": false,
+                        "authoritative": false,
+                        "checking_disabled": false,
+                        "error_code": 0,
+                        "opcode": 0,
+                        "recursion_available": false,
+                        "recursion_desired": false,
+                        "response": false,
+                        "truncated": false
+                    },
+                    "protocol": "",
+                    "resolver": ""
+                },
+                "status": "NOERROR"
+            },
+            {
+                "nameserver": "ns2.google.com",
+                "result": {
+                    "answers": [
+                        {
+                            "answer": "172.217.18.3",
+                            "class": "IN",
+                            "name": "google.es",
+                            "ttl": 300,
+                            "type": "A"
+                        }
+                    ],
+                    "flags": {
+                        "authenticated": false,
+                        "authoritative": false,
+                        "checking_disabled": false,
+                        "error_code": 0,
+                        "opcode": 0,
+                        "recursion_available": false,
+                        "recursion_desired": false,
+                        "response": false,
+                        "truncated": false
+                    },
+                    "protocol": "",
+                    "resolver": ""
+                },
+                "status": "NOERROR"
+            },
+            {
+                "nameserver": "ns2.google.com",
+                "result": {
+                    "answers": [
+                        {
+                            "answer": "172.217.18.3",
+                            "class": "IN",
+                            "name": "google.es",
+                            "ttl": 300,
+                            "type": "A"
+                        }
+                    ],
+                    "flags": {
+                        "authenticated": false,
+                        "authoritative": false,
+                        "checking_disabled": false,
+                        "error_code": 0,
+                        "opcode": 0,
+                        "recursion_available": false,
+                        "recursion_desired": false,
+                        "response": false,
+                        "truncated": false
+                    },
+                    "protocol": "",
+                    "resolver": ""
+                },
+                "status": "NOERROR"
+            },
+            {
+                "nameserver": "ns1.google.com",
+                "result": {
+                    "answers": [
+                        {
+                            "answer": "172.217.18.3",
+                            "class": "IN",
+                            "name": "google.es",
+                            "ttl": 300,
+                            "type": "A"
+                        }
+                    ],
+                    "flags": {
+                        "authenticated": false,
+                        "authoritative": false,
+                        "checking_disabled": false,
+                        "error_code": 0,
+                        "opcode": 0,
+                        "recursion_available": false,
+                        "recursion_desired": false,
+                        "response": false,
+                        "truncated": false
+                    },
+                    "protocol": "",
+                    "resolver": ""
+                },
+                "status": "NOERROR"
+            },
+            {
+                "nameserver": "ns1.google.com",
+                "result": {
+                    "answers": [
+                        {
+                            "answer": "172.217.18.3",
+                            "class": "IN",
+                            "name": "google.es",
+                            "ttl": 300,
+                            "type": "A"
+                        }
+                    ],
+                    "flags": {
+                        "authenticated": false,
+                        "authoritative": false,
+                        "checking_disabled": false,
+                        "error_code": 0,
+                        "opcode": 0,
+                        "recursion_available": false,
+                        "recursion_desired": false,
+                        "response": false,
+                        "truncated": false
+                    },
+                    "protocol": "",
+                    "resolver": ""
+                },
+                "status": "NOERROR"
+            }
+        ]
+    },
+    "name": "google.es",
+    "status": "NOERROR",
+    "timestamp": "2023-01-04T17:16:23+01:00",
+    "trace": [
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "google.es",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "additionals": [
+                    {
+                        "answer": "194.0.33.53",
+                        "class": "IN",
+                        "name": "h.nic.es",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "204.61.217.1",
+                        "class": "IN",
+                        "name": "g.nic.es",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "194.0.34.53",
+                        "class": "IN",
+                        "name": "c.nic.es",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "194.69.254.1",
+                        "class": "IN",
+                        "name": "a.nic.es",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2001:678:40::53",
+                        "class": "IN",
+                        "name": "h.nic.es",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "2001:500:14:7001:ad::1",
+                        "class": "IN",
+                        "name": "g.nic.es",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "2001:678:44::53",
+                        "class": "IN",
+                        "name": "c.nic.es",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "2001:67c:21cc:2000::64:41",
+                        "class": "IN",
+                        "name": "a.nic.es",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    }
+                ],
+                "authorities": [
+                    {
+                        "answer": "h.nic.es.",
+                        "class": "IN",
+                        "name": "es",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "a.nic.es.",
+                        "class": "IN",
+                        "name": "es",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "c.nic.es.",
+                        "class": "IN",
+                        "name": "es",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "g.nic.es.",
+                        "class": "IN",
+                        "name": "es",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "192.36.148.17:53"
+            },
+            "try": 1,
+            "type": 2
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 2,
+            "layer": "es",
+            "name": "google.es",
+            "name_server": "194.0.33.53:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "ns2.google.com.",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 86400,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns1.google.com.",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 86400,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns4.google.com.",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 86400,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns3.google.com.",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 86400,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "194.0.33.53:53"
+            },
+            "try": 1,
+            "type": 2
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 3,
+            "layer": ".",
+            "name": "ns2.google.com",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "b.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "d.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "e.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "k.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "i.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "j.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "l.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "a.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "c.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "g.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "h.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "m.gtld-servers.net.",
+                        "class": "IN",
+                        "name": "com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 4,
+            "layer": ".",
+            "name": "b.gtld-servers.net",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "192.33.14.30",
+                        "class": "IN",
+                        "name": "b.gtld-servers.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 4,
+            "layer": "com",
+            "name": "ns2.google.com",
+            "name_server": "192.33.14.30:53",
+            "results": {
+                "additionals": [
+                    {
+                        "answer": "2001:4860:4802:34::a",
+                        "class": "IN",
+                        "name": "ns2.google.com",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "216.239.34.10",
+                        "class": "IN",
+                        "name": "ns2.google.com",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2001:4860:4802:32::a",
+                        "class": "IN",
+                        "name": "ns1.google.com",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "216.239.32.10",
+                        "class": "IN",
+                        "name": "ns1.google.com",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2001:4860:4802:36::a",
+                        "class": "IN",
+                        "name": "ns3.google.com",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "216.239.36.10",
+                        "class": "IN",
+                        "name": "ns3.google.com",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2001:4860:4802:38::a",
+                        "class": "IN",
+                        "name": "ns4.google.com",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "216.239.38.10",
+                        "class": "IN",
+                        "name": "ns4.google.com",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "authorities": [
+                    {
+                        "answer": "ns2.google.com.",
+                        "class": "IN",
+                        "name": "google.com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns1.google.com.",
+                        "class": "IN",
+                        "name": "google.com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns3.google.com.",
+                        "class": "IN",
+                        "name": "google.com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns4.google.com.",
+                        "class": "IN",
+                        "name": "google.com",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "192.33.14.30:53"
+            },
+            "try": 1,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 5,
+            "layer": "google.com",
+            "name": "ns2.google.com",
+            "name_server": "216.239.34.10:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "216.239.34.10",
+                        "class": "IN",
+                        "name": "ns2.google.com",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 3,
+            "layer": "google.es",
+            "name": "google.es",
+            "name_server": "216.239.34.10:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "ns4.google.com.",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 86400,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns3.google.com.",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 86400,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns2.google.com.",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 86400,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns1.google.com.",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 86400,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 2
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns4.google.com",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "216.239.38.10",
+                        "class": "IN",
+                        "name": "ns4.google.com",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns4.google.com",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "2001:4860:4802:38::a",
+                        "class": "IN",
+                        "name": "ns4.google.com",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns3.google.com",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "216.239.36.10",
+                        "class": "IN",
+                        "name": "ns3.google.com",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns3.google.com",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "2001:4860:4802:36::a",
+                        "class": "IN",
+                        "name": "ns3.google.com",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns2.google.com",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "216.239.34.10",
+                        "class": "IN",
+                        "name": "ns2.google.com",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns2.google.com",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "2001:4860:4802:34::a",
+                        "class": "IN",
+                        "name": "ns2.google.com",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns1.google.com",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "216.239.32.10",
+                        "class": "IN",
+                        "name": "ns1.google.com",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns1.google.com",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "2001:4860:4802:32::a",
+                        "class": "IN",
+                        "name": "ns1.google.com",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "google.es",
+            "name_server": "216.239.38.10:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "a.nic.es.",
+                        "class": "IN",
+                        "name": "es",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "c.nic.es.",
+                        "class": "IN",
+                        "name": "es",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "g.nic.es.",
+                        "class": "IN",
+                        "name": "es",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "h.nic.es.",
+                        "class": "IN",
+                        "name": "es",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": ".",
+            "name": "a.nic.es",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "194.69.254.1",
+                        "class": "IN",
+                        "name": "a.nic.es",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": "es",
+            "name": "google.es",
+            "name_server": "194.69.254.1:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "ns2.google.com.",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 86400,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns1.google.com.",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 86400,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns4.google.com.",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 86400,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns3.google.com.",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 86400,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 3,
+            "layer": ".",
+            "name": "ns2.google.com",
+            "name_server": "192.36.148.17:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "216.239.34.10",
+                        "class": "IN",
+                        "name": "ns2.google.com",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 3,
+            "layer": "google.es",
+            "name": "google.es",
+            "name_server": "216.239.34.10:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "172.217.18.3",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "216.239.34.10:53"
+            },
+            "try": 1,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "google.es",
+            "name_server": "[2001:4860:4802:38::a]:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "172.217.18.3",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "google.es",
+            "name_server": "216.239.36.10:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "172.217.18.3",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "google.es",
+            "name_server": "[2001:4860:4802:36::a]:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "172.217.18.3",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "google.es",
+            "name_server": "216.239.34.10:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "172.217.18.3",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "google.es",
+            "name_server": "[2001:4860:4802:34::a]:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "172.217.18.3",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "google.es",
+            "name_server": "216.239.32.10:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "172.217.18.3",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "google.es",
+            "name_server": "[2001:4860:4802:32::a]:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "172.217.18.3",
+                        "class": "IN",
+                        "name": "google.es",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        }
+    ]
+}

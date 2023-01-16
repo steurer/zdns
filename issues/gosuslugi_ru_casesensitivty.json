@@ -1,0 +1,3615 @@
+{
+    "class": "IN",
+    "data": {
+        "results": [
+            {
+                "nameserver": "ns4-l2.nic.ru",
+                "result": {
+                    "answers": [
+                        {
+                            "answer": "213.59.253.7",
+                            "class": "IN",
+                            "name": "gosuslugi.ru",
+                            "ttl": 600,
+                            "type": "A"
+                        },
+                        {
+                            "answer": "213.59.254.7",
+                            "class": "IN",
+                            "name": "gosuslugi.ru",
+                            "ttl": 600,
+                            "type": "A"
+                        }
+                    ],
+                    "flags": {
+                        "authenticated": false,
+                        "authoritative": true,
+                        "checking_disabled": false,
+                        "error_code": 0,
+                        "opcode": 0,
+                        "recursion_available": false,
+                        "recursion_desired": false,
+                        "response": true,
+                        "truncated": false
+                    },
+                    "protocol": "udp",
+                    "resolver": "213.59.255.175:53"
+                },
+                "status": "NOERROR"
+            },
+            {
+                "nameserver": "ns8-l2.nic.ru",
+                "result": {
+                    "answers": [
+                        {
+                            "answer": "213.59.253.7",
+                            "class": "IN",
+                            "name": "gosuslugi.ru",
+                            "ttl": 600,
+                            "type": "A"
+                        },
+                        {
+                            "answer": "213.59.254.7",
+                            "class": "IN",
+                            "name": "gosuslugi.ru",
+                            "ttl": 600,
+                            "type": "A"
+                        }
+                    ],
+                    "flags": {
+                        "authenticated": false,
+                        "authoritative": false,
+                        "checking_disabled": false,
+                        "error_code": 0,
+                        "opcode": 0,
+                        "recursion_available": false,
+                        "recursion_desired": false,
+                        "response": false,
+                        "truncated": false
+                    },
+                    "protocol": "",
+                    "resolver": ""
+                },
+                "status": "NOERROR"
+            },
+            {
+                "nameserver": "ns1.gosuslugi.ru",
+                "result": {
+                    "answers": [
+                        {
+                            "answer": "213.59.253.7",
+                            "class": "IN",
+                            "name": "gosuslugi.ru",
+                            "ttl": 600,
+                            "type": "A"
+                        },
+                        {
+                            "answer": "213.59.254.7",
+                            "class": "IN",
+                            "name": "gosuslugi.ru",
+                            "ttl": 600,
+                            "type": "A"
+                        }
+                    ],
+                    "flags": {
+                        "authenticated": false,
+                        "authoritative": false,
+                        "checking_disabled": false,
+                        "error_code": 0,
+                        "opcode": 0,
+                        "recursion_available": false,
+                        "recursion_desired": false,
+                        "response": false,
+                        "truncated": false
+                    },
+                    "protocol": "",
+                    "resolver": ""
+                },
+                "status": "NOERROR"
+            },
+            {
+                "nameserver": "ns2.gosuslugi.ru",
+                "result": {
+                    "answers": [
+                        {
+                            "answer": "213.59.253.7",
+                            "class": "IN",
+                            "name": "gosuslugi.ru",
+                            "ttl": 600,
+                            "type": "A"
+                        },
+                        {
+                            "answer": "213.59.254.7",
+                            "class": "IN",
+                            "name": "gosuslugi.ru",
+                            "ttl": 600,
+                            "type": "A"
+                        }
+                    ],
+                    "flags": {
+                        "authenticated": false,
+                        "authoritative": false,
+                        "checking_disabled": false,
+                        "error_code": 0,
+                        "opcode": 0,
+                        "recursion_available": false,
+                        "recursion_desired": false,
+                        "response": false,
+                        "truncated": false
+                    },
+                    "protocol": "",
+                    "resolver": ""
+                },
+                "status": "NOERROR"
+            }
+        ]
+    },
+    "name": "gosuslugi.ru",
+    "status": "NOERROR",
+    "timestamp": "2023-01-04T17:16:24+01:00",
+    "trace": [
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "gosuslugi.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "additionals": [
+                    {
+                        "answer": "193.232.128.6",
+                        "class": "IN",
+                        "name": "a.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2001:678:17:0:193:232:128:6",
+                        "class": "IN",
+                        "name": "a.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "194.85.252.62",
+                        "class": "IN",
+                        "name": "b.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2001:678:16:0:194:85:252:62",
+                        "class": "IN",
+                        "name": "b.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "194.190.124.17",
+                        "class": "IN",
+                        "name": "d.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2001:678:18:0:194:190:124:17",
+                        "class": "IN",
+                        "name": "d.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "193.232.142.17",
+                        "class": "IN",
+                        "name": "e.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2001:678:15:0:193:232:142:17",
+                        "class": "IN",
+                        "name": "e.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "193.232.156.17",
+                        "class": "IN",
+                        "name": "f.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2001:678:14:0:193:232:156:17",
+                        "class": "IN",
+                        "name": "f.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "AAAA"
+                    }
+                ],
+                "authorities": [
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "193.0.14.129:53"
+            },
+            "try": 1,
+            "type": 2
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 2,
+            "layer": "ru",
+            "name": "gosuslugi.ru",
+            "name_server": "193.232.128.6:53",
+            "results": {
+                "additionals": [
+                    {
+                        "answer": "213.59.253.4",
+                        "class": "IN",
+                        "name": "ns1.gosuslugi.ru",
+                        "ttl": 345600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "213.59.255.175",
+                        "class": "IN",
+                        "name": "ns2.gosuslugi.RU",
+                        "ttl": 345600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "91.217.20.20",
+                        "class": "IN",
+                        "name": "ns4-l2.NIC.ru",
+                        "ttl": 345600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "91.217.21.20",
+                        "class": "IN",
+                        "name": "ns8-l2.NIC.ru",
+                        "ttl": 345600,
+                        "type": "A"
+                    }
+                ],
+                "authorities": [
+                    {
+                        "answer": "ns1.gosuslugi.RU.",
+                        "class": "IN",
+                        "name": "GOSUSLUGI.RU",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns8-l2.nic.RU.",
+                        "class": "IN",
+                        "name": "GOSUSLUGI.RU",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns4-l2.nic.RU.",
+                        "class": "IN",
+                        "name": "GOSUSLUGI.RU",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns2.gosuslugi.RU.",
+                        "class": "IN",
+                        "name": "GOSUSLUGI.RU",
+                        "ttl": 345600,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "193.232.128.6:53"
+            },
+            "try": 1,
+            "type": 2
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 3,
+            "layer": ".",
+            "name": "ns1.gosuslugi.RU",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 4,
+            "layer": ".",
+            "name": "a.dns.ripn.net",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "193.232.128.6",
+                        "class": "IN",
+                        "name": "a.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 4,
+            "layer": "ru",
+            "name": "ns1.gosuslugi.RU",
+            "name_server": "193.232.128.6:53",
+            "results": {
+                "additionals": [
+                    {
+                        "answer": "213.59.253.4",
+                        "class": "IN",
+                        "name": "ns1.gosuslugi.ru",
+                        "ttl": 345600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "213.59.255.175",
+                        "class": "IN",
+                        "name": "ns2.gosuslugi.RU",
+                        "ttl": 345600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "91.217.20.20",
+                        "class": "IN",
+                        "name": "ns4-l2.NIC.ru",
+                        "ttl": 345600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "91.217.21.20",
+                        "class": "IN",
+                        "name": "ns8-l2.NIC.ru",
+                        "ttl": 345600,
+                        "type": "A"
+                    }
+                ],
+                "authorities": [
+                    {
+                        "answer": "ns8-l2.nic.RU.",
+                        "class": "IN",
+                        "name": "GOSUSLUGI.RU",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns2.gosuslugi.RU.",
+                        "class": "IN",
+                        "name": "GOSUSLUGI.RU",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns4-l2.nic.RU.",
+                        "class": "IN",
+                        "name": "GOSUSLUGI.RU",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns1.gosuslugi.RU.",
+                        "class": "IN",
+                        "name": "GOSUSLUGI.RU",
+                        "ttl": 345600,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "193.232.128.6:53"
+            },
+            "try": 1,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 5,
+            "layer": ".",
+            "name": "ns8-l2.nic.RU",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 6,
+            "layer": ".",
+            "name": "a.dns.ripn.net",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "193.232.128.6",
+                        "class": "IN",
+                        "name": "a.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 6,
+            "layer": "ru",
+            "name": "ns8-l2.nic.RU",
+            "name_server": "193.232.128.6:53",
+            "results": {
+                "additionals": [
+                    {
+                        "answer": "31.177.67.100",
+                        "class": "IN",
+                        "name": "ns5.nic.RU",
+                        "ttl": 345600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "31.177.74.100",
+                        "class": "IN",
+                        "name": "ns6.nic.RU",
+                        "ttl": 345600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "31.177.85.186",
+                        "class": "IN",
+                        "name": "ns9.nic.RU",
+                        "ttl": 345600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2a02:2090:e800:9000:31:177:67:100",
+                        "class": "IN",
+                        "name": "ns5.nic.RU",
+                        "ttl": 345600,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "2a02:2090:ec00:9040:31:177:74:100",
+                        "class": "IN",
+                        "name": "ns6.nic.RU",
+                        "ttl": 345600,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "2a02:2090:e400:7000:31:177:85:186",
+                        "class": "IN",
+                        "name": "ns9.nic.RU",
+                        "ttl": 345600,
+                        "type": "AAAA"
+                    }
+                ],
+                "authorities": [
+                    {
+                        "answer": "ns9.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns6.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "193.232.128.6:53"
+            },
+            "try": 1,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 7,
+            "layer": "nic.ru",
+            "name": "ns8-l2.nic.RU",
+            "name_server": "31.177.85.186:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "91.217.21.20",
+                        "class": "IN",
+                        "name": "ns8-l2.nic.RU",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 5,
+            "layer": "gosuslugi.ru",
+            "name": "ns1.gosuslugi.RU",
+            "name_server": "91.217.21.20:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "213.59.253.4",
+                        "class": "IN",
+                        "name": "ns1.gosuslugi.RU",
+                        "ttl": 600,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "91.217.21.20:53"
+            },
+            "try": 1,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 3,
+            "layer": "gosuslugi.ru",
+            "name": "gosuslugi.ru",
+            "name_server": "213.59.253.4:53",
+            "results": {
+                "additionals": [
+                    {
+                        "answer": "213.59.253.4",
+                        "class": "IN",
+                        "name": "ns1.gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "213.59.255.175",
+                        "class": "IN",
+                        "name": "ns2.gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    }
+                ],
+                "answers": [
+                    {
+                        "answer": "ns4-l2.nic.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns8-l2.nic.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns1.gosuslugi.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns2.gosuslugi.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "213.59.253.4:53"
+            },
+            "try": 1,
+            "type": 2
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns4-l2.nic.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": ".",
+            "name": "e.dns.ripn.net",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "193.232.142.17",
+                        "class": "IN",
+                        "name": "e.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": "ru",
+            "name": "ns4-l2.nic.ru",
+            "name_server": "193.232.142.17:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "ns6.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns9.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 3,
+            "layer": ".",
+            "name": "ns6.nic.RU",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "31.177.74.100",
+                        "class": "IN",
+                        "name": "ns6.nic.RU",
+                        "ttl": 300,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "31.177.74.100",
+                        "class": "IN",
+                        "name": "ns6.nic.RU",
+                        "ttl": 345600,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 3,
+            "layer": "nic.ru",
+            "name": "ns4-l2.nic.ru",
+            "name_server": "31.177.74.100:53",
+            "results": {
+                "additionals": [
+                    {
+                        "answer": "31.177.67.100",
+                        "class": "IN",
+                        "name": "ns5.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2a02:2090:e800:9000:31:177:67:100",
+                        "class": "IN",
+                        "name": "ns5.nic.ru",
+                        "ttl": 300,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "31.177.74.100",
+                        "class": "IN",
+                        "name": "ns6.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2a02:2090:ec00:9040:31:177:74:100",
+                        "class": "IN",
+                        "name": "ns6.nic.ru",
+                        "ttl": 300,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "31.177.85.186",
+                        "class": "IN",
+                        "name": "ns9.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2a02:2090:e400:7000:31:177:85:186",
+                        "class": "IN",
+                        "name": "ns9.nic.ru",
+                        "ttl": 300,
+                        "type": "AAAA"
+                    }
+                ],
+                "answers": [
+                    {
+                        "answer": "91.217.20.20",
+                        "class": "IN",
+                        "name": "ns4-l2.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "authorities": [
+                    {
+                        "answer": "ns6.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns9.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "31.177.74.100:53"
+            },
+            "try": 1,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns4-l2.nic.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": ".",
+            "name": "d.dns.ripn.net",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "194.190.124.17",
+                        "class": "IN",
+                        "name": "d.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": "ru",
+            "name": "ns4-l2.nic.ru",
+            "name_server": "194.190.124.17:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "ns9.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns6.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns6.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns9.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 3,
+            "layer": ".",
+            "name": "ns9.nic.RU",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 4,
+            "layer": ".",
+            "name": "a.dns.ripn.net",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "193.232.128.6",
+                        "class": "IN",
+                        "name": "a.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 4,
+            "layer": "ru",
+            "name": "ns9.nic.RU",
+            "name_server": "193.232.128.6:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "ns5.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns6.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns6.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns9.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns9.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 5,
+            "layer": ".",
+            "name": "ns5.nic.RU",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "31.177.67.100",
+                        "class": "IN",
+                        "name": "ns5.nic.RU",
+                        "ttl": 345600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "31.177.67.100",
+                        "class": "IN",
+                        "name": "ns5.nic.RU",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 5,
+            "layer": "nic.ru",
+            "name": "ns9.nic.RU",
+            "name_server": "31.177.67.100:53",
+            "results": {
+                "additionals": [
+                    {
+                        "answer": "31.177.67.100",
+                        "class": "IN",
+                        "name": "ns5.nic.RU",
+                        "ttl": 300,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2a02:2090:e800:9000:31:177:67:100",
+                        "class": "IN",
+                        "name": "ns5.nic.RU",
+                        "ttl": 300,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "31.177.74.100",
+                        "class": "IN",
+                        "name": "ns6.nic.RU",
+                        "ttl": 300,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2a02:2090:ec00:9040:31:177:74:100",
+                        "class": "IN",
+                        "name": "ns6.nic.RU",
+                        "ttl": 300,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "2a02:2090:e400:7000:31:177:85:186",
+                        "class": "IN",
+                        "name": "ns9.nic.RU",
+                        "ttl": 300,
+                        "type": "AAAA"
+                    }
+                ],
+                "answers": [
+                    {
+                        "answer": "31.177.85.186",
+                        "class": "IN",
+                        "name": "ns9.nic.RU",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "authorities": [
+                    {
+                        "answer": "ns6.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.RU",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.RU",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns9.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.RU",
+                        "ttl": 300,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "31.177.67.100:53"
+            },
+            "try": 1,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 3,
+            "layer": "nic.ru",
+            "name": "ns4-l2.nic.ru",
+            "name_server": "31.177.85.186:53",
+            "results": {
+                "authorities": [
+                    {
+                        "class": "IN",
+                        "expire": 2592000,
+                        "mbox": "noc-dns.nic.ru",
+                        "min_ttl": 600,
+                        "name": "nic.ru",
+                        "ns": "ns5.nic.ru",
+                        "refresh": 14400,
+                        "retry": 3600,
+                        "serial": 650335254,
+                        "ttl": 300,
+                        "type": "SOA"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "31.177.85.186:53"
+            },
+            "try": 1,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns8-l2.nic.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": ".",
+            "name": "b.dns.ripn.net",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "194.85.252.62",
+                        "class": "IN",
+                        "name": "b.dns.ripn.net",
+                        "ttl": 1800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": "ru",
+            "name": "ns8-l2.nic.ru",
+            "name_server": "194.85.252.62:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "ns9.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns6.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns6.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns9.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 3,
+            "layer": ".",
+            "name": "ns9.nic.RU",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 4,
+            "layer": ".",
+            "name": "a.dns.ripn.net",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "193.232.128.6",
+                        "class": "IN",
+                        "name": "a.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "193.232.128.6",
+                        "class": "IN",
+                        "name": "a.dns.ripn.net",
+                        "ttl": 1800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 4,
+            "layer": "ru",
+            "name": "ns9.nic.RU",
+            "name_server": "193.232.128.6:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "ns6.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns9.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns9.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns6.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 5,
+            "layer": ".",
+            "name": "ns6.nic.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "31.177.74.100",
+                        "class": "IN",
+                        "name": "ns6.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 5,
+            "layer": "nic.ru",
+            "name": "ns9.nic.RU",
+            "name_server": "31.177.74.100:53",
+            "results": {
+                "additionals": [
+                    {
+                        "answer": "31.177.67.100",
+                        "class": "IN",
+                        "name": "ns5.nic.RU",
+                        "ttl": 300,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2a02:2090:e800:9000:31:177:67:100",
+                        "class": "IN",
+                        "name": "ns5.nic.RU",
+                        "ttl": 300,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "31.177.74.100",
+                        "class": "IN",
+                        "name": "ns6.nic.RU",
+                        "ttl": 300,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2a02:2090:ec00:9040:31:177:74:100",
+                        "class": "IN",
+                        "name": "ns6.nic.RU",
+                        "ttl": 300,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "2a02:2090:e400:7000:31:177:85:186",
+                        "class": "IN",
+                        "name": "ns9.nic.RU",
+                        "ttl": 300,
+                        "type": "AAAA"
+                    }
+                ],
+                "answers": [
+                    {
+                        "answer": "31.177.85.186",
+                        "class": "IN",
+                        "name": "ns9.nic.RU",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "authorities": [
+                    {
+                        "answer": "ns5.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.RU",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns6.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.RU",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns9.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.RU",
+                        "ttl": 300,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "31.177.74.100:53"
+            },
+            "try": 1,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 3,
+            "layer": "nic.ru",
+            "name": "ns8-l2.nic.ru",
+            "name_server": "31.177.85.186:53",
+            "results": {
+                "additionals": [
+                    {
+                        "answer": "31.177.67.100",
+                        "class": "IN",
+                        "name": "ns5.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2a02:2090:e800:9000:31:177:67:100",
+                        "class": "IN",
+                        "name": "ns5.nic.ru",
+                        "ttl": 300,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "31.177.74.100",
+                        "class": "IN",
+                        "name": "ns6.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2a02:2090:ec00:9040:31:177:74:100",
+                        "class": "IN",
+                        "name": "ns6.nic.ru",
+                        "ttl": 300,
+                        "type": "AAAA"
+                    },
+                    {
+                        "answer": "31.177.85.186",
+                        "class": "IN",
+                        "name": "ns9.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "2a02:2090:e400:7000:31:177:85:186",
+                        "class": "IN",
+                        "name": "ns9.nic.ru",
+                        "ttl": 300,
+                        "type": "AAAA"
+                    }
+                ],
+                "answers": [
+                    {
+                        "answer": "91.217.21.20",
+                        "class": "IN",
+                        "name": "ns8-l2.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "authorities": [
+                    {
+                        "answer": "ns9.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns6.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "31.177.85.186:53"
+            },
+            "try": 1,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns8-l2.nic.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": ".",
+            "name": "d.dns.ripn.net",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "194.190.124.17",
+                        "class": "IN",
+                        "name": "d.dns.ripn.net",
+                        "ttl": 1800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "194.190.124.17",
+                        "class": "IN",
+                        "name": "d.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": "ru",
+            "name": "ns8-l2.nic.ru",
+            "name_server": "194.190.124.17:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "ns9.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns9.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns5.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns6.nic.RU.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 345600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns6.nic.ru.",
+                        "class": "IN",
+                        "name": "nic.ru",
+                        "ttl": 300,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 3,
+            "layer": ".",
+            "name": "ns9.nic.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "31.177.85.186",
+                        "class": "IN",
+                        "name": "ns9.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 3,
+            "layer": "nic.ru",
+            "name": "ns8-l2.nic.ru",
+            "name_server": "31.177.85.186:53",
+            "results": {
+                "authorities": [
+                    {
+                        "class": "IN",
+                        "expire": 2592000,
+                        "mbox": "noc-dns.nic.ru",
+                        "min_ttl": 600,
+                        "name": "nic.ru",
+                        "ns": "ns5.nic.ru",
+                        "refresh": 14400,
+                        "retry": 3600,
+                        "serial": 650335254,
+                        "ttl": 300,
+                        "type": "SOA"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "31.177.85.186:53"
+            },
+            "try": 1,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns1.gosuslugi.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "213.59.253.4",
+                        "class": "IN",
+                        "name": "ns1.gosuslugi.ru",
+                        "ttl": 345600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "213.59.253.4",
+                        "class": "IN",
+                        "name": "ns1.gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns1.gosuslugi.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": ".",
+            "name": "f.dns.ripn.net",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "193.232.156.17",
+                        "class": "IN",
+                        "name": "f.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "193.232.156.17",
+                        "class": "IN",
+                        "name": "f.dns.ripn.net",
+                        "ttl": 1800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": "ru",
+            "name": "ns1.gosuslugi.ru",
+            "name_server": "193.232.156.17:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "ns4-l2.nic.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns8-l2.nic.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns1.gosuslugi.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns2.gosuslugi.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 3,
+            "layer": ".",
+            "name": "ns4-l2.nic.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "91.217.20.20",
+                        "class": "IN",
+                        "name": "ns4-l2.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 3,
+            "layer": "gosuslugi.ru",
+            "name": "ns1.gosuslugi.ru",
+            "name_server": "91.217.20.20:53",
+            "results": {
+                "authorities": [
+                    {
+                        "class": "IN",
+                        "expire": 1209600,
+                        "mbox": "support-egov.rtlabs.ru",
+                        "min_ttl": 600,
+                        "name": "gosuslugi.ru",
+                        "ns": "ns1.gosuslugi.ru",
+                        "refresh": 600,
+                        "retry": 7200,
+                        "serial": 2023010400,
+                        "ttl": 600,
+                        "type": "SOA"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "91.217.20.20:53"
+            },
+            "try": 1,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns2.gosuslugi.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": ".",
+            "name": "e.dns.ripn.net",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "193.232.142.17",
+                        "class": "IN",
+                        "name": "e.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "193.232.142.17",
+                        "class": "IN",
+                        "name": "e.dns.ripn.net",
+                        "ttl": 1800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": "ru",
+            "name": "ns2.gosuslugi.ru",
+            "name_server": "193.232.142.17:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "ns4-l2.nic.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns8-l2.nic.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns1.gosuslugi.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns2.gosuslugi.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 3,
+            "layer": ".",
+            "name": "ns4-l2.nic.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "91.217.20.20",
+                        "class": "IN",
+                        "name": "ns4-l2.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 3,
+            "layer": "gosuslugi.ru",
+            "name": "ns2.gosuslugi.ru",
+            "name_server": "91.217.20.20:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "213.59.255.175",
+                        "class": "IN",
+                        "name": "ns2.gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "91.217.20.20:53"
+            },
+            "try": 1,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "ns2.gosuslugi.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": ".",
+            "name": "a.dns.ripn.net",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "193.232.128.6",
+                        "class": "IN",
+                        "name": "a.dns.ripn.net",
+                        "ttl": 1800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "193.232.128.6",
+                        "class": "IN",
+                        "name": "a.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": "ru",
+            "name": "ns2.gosuslugi.ru",
+            "name_server": "193.232.128.6:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "ns4-l2.nic.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns8-l2.nic.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns1.gosuslugi.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns2.gosuslugi.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 3,
+            "layer": ".",
+            "name": "ns4-l2.nic.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "91.217.20.20",
+                        "class": "IN",
+                        "name": "ns4-l2.nic.ru",
+                        "ttl": 300,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 3,
+            "layer": "gosuslugi.ru",
+            "name": "ns2.gosuslugi.ru",
+            "name_server": "91.217.20.20:53",
+            "results": {
+                "authorities": [
+                    {
+                        "class": "IN",
+                        "expire": 1209600,
+                        "mbox": "support-egov.rtlabs.ru",
+                        "min_ttl": 600,
+                        "name": "gosuslugi.ru",
+                        "ns": "ns1.gosuslugi.ru",
+                        "refresh": 600,
+                        "retry": 7200,
+                        "serial": 2023010400,
+                        "ttl": 600,
+                        "type": "SOA"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "91.217.20.20:53"
+            },
+            "try": 1,
+            "type": 28
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "gosuslugi.ru",
+            "name_server": "91.217.20.20:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "d.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "b.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "a.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "e.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "f.dns.ripn.net.",
+                        "class": "IN",
+                        "name": "ru",
+                        "ttl": 172800,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": ".",
+            "name": "d.dns.ripn.net",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "194.190.124.17",
+                        "class": "IN",
+                        "name": "d.dns.ripn.net",
+                        "ttl": 1800,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "194.190.124.17",
+                        "class": "IN",
+                        "name": "d.dns.ripn.net",
+                        "ttl": 172800,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 2,
+            "layer": "ru",
+            "name": "gosuslugi.ru",
+            "name_server": "194.190.124.17:53",
+            "results": {
+                "authorities": [
+                    {
+                        "answer": "ns2.gosuslugi.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns4-l2.nic.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns8-l2.nic.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns1.gosuslugi.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 3,
+            "layer": ".",
+            "name": "ns2.gosuslugi.ru",
+            "name_server": "193.0.14.129:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "213.59.255.175",
+                        "class": "IN",
+                        "name": "ns2.gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": false,
+            "class": 1,
+            "depth": 3,
+            "layer": "gosuslugi.ru",
+            "name": "gosuslugi.ru",
+            "name_server": "213.59.255.175:53",
+            "results": {
+                "additionals": [
+                    {
+                        "answer": "213.59.253.4",
+                        "class": "IN",
+                        "name": "ns1.gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "213.59.255.175",
+                        "class": "IN",
+                        "name": "ns2.gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    }
+                ],
+                "answers": [
+                    {
+                        "answer": "213.59.253.7",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "213.59.254.7",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    }
+                ],
+                "authorities": [
+                    {
+                        "answer": "ns4-l2.nic.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns8-l2.nic.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns1.gosuslugi.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    },
+                    {
+                        "answer": "ns2.gosuslugi.ru.",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "NS"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": true,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": true,
+                    "truncated": false
+                },
+                "protocol": "udp",
+                "resolver": "213.59.255.175:53"
+            },
+            "try": 1,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "gosuslugi.ru",
+            "name_server": "91.217.21.20:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "213.59.253.7",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "213.59.254.7",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "gosuslugi.ru",
+            "name_server": "213.59.253.4:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "213.59.253.7",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "213.59.254.7",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        },
+        {
+            "cached": true,
+            "class": 1,
+            "depth": 1,
+            "layer": ".",
+            "name": "gosuslugi.ru",
+            "name_server": "213.59.255.175:53",
+            "results": {
+                "answers": [
+                    {
+                        "answer": "213.59.253.7",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    },
+                    {
+                        "answer": "213.59.254.7",
+                        "class": "IN",
+                        "name": "gosuslugi.ru",
+                        "ttl": 600,
+                        "type": "A"
+                    }
+                ],
+                "flags": {
+                    "authenticated": false,
+                    "authoritative": false,
+                    "checking_disabled": false,
+                    "error_code": 0,
+                    "opcode": 0,
+                    "recursion_available": false,
+                    "recursion_desired": false,
+                    "response": false,
+                    "truncated": false
+                },
+                "protocol": "",
+                "resolver": ""
+            },
+            "try": 0,
+            "type": 1
+        }
+    ]
+}
