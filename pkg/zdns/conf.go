@@ -50,6 +50,8 @@ type GlobalConf struct {
 	LocalAddrSpecified   bool
 	LocalAddrs           []net.IP
 	ClientSubnet         *dns.EDNS0_SUBNET
+	Dnssec               bool
+	CheckingDisabled     bool
 
 	InputHandler  InputHandler
 	OutputHandler OutputHandler
