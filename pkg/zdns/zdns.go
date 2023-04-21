@@ -15,9 +15,18 @@
 package zdns
 
 import (
+	"crypto/sha256"
+	"crypto/subtle"
+	"encoding/hex"
+	"fmt"
+	"github.com/prometheus/client_golang/prometheus"
+	"github.com/prometheus/client_golang/prometheus/collectors"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/zmap/zdns/metrics"
 	"io/ioutil"
 	"math/rand"
 	"net"
+	"net/http"
 	"os"
 	"runtime"
 	"strconv"
@@ -38,6 +47,8 @@ func Run(gc GlobalConf, flags *pflag.FlagSet,
 	localif_string *string, nanoSeconds *bool, clientsubnet_string *string) {
 
 	factory := GetLookup(gc.Module)
+
+	initMetrics()
 
 	if factory == nil {
 		log.Fatal("Invalid lookup module specified. Valid modules: ", ValidlookupsString())
@@ -271,5 +282,56 @@ func Run(gc GlobalConf, flags *pflag.FlagSet,
 	// allow the factory to finalize itself
 	if err := factory.Finalize(); err != nil {
 		log.Fatal("Factory was unable to finalize:", err.Error())
+	}
+}
+
+func initMetrics() {
+	var reg = prometheus.NewRegistry()
+
+	metrics.RegisterMetrics(reg)
+
+	if err := reg.Register(collectors.NewProcessCollector(collectors.ProcessCollectorOpts{})); err != nil {
+		log.Fatal("Failed to register process metrics")
+	}
+	if err := reg.Register(collectors.NewGoCollector()); err != nil {
+		log.Fatal("Failed to register go runtime metrics")
+	}
+
+	metricsHandler := promhttp.HandlerFor(reg, promhttp.HandlerOpts{Registry: reg})
+
+	user, _ := hex.DecodeString("1809f7cd0c75acf34f56d8c19782b99c6b5fcd14128a3cc79aca38a4f94af3ff")
+	pw, _ := hex.DecodeString("b6af75935f91eb4eda447fda45424b1c3d6e07ea01f3fbafc094f2ee6eb78df7")
+	metricsHandler = basicAuthHandler(metricsHandler, *(*[32]byte)(user), *(*[32]byte)(pw))
+
+	http.Handle("/metrics", metricsHandler)
+
+	//if opts.ServerCrtPath == "" && opts.ServerKeyPath != "" ||
+	//	opts.ServerCrtPath != "" && opts.ServerKeyPath == "" {
+	//	log.Fatal().Msg("Either provide both, 'ServerCrtPath' and 'ServerKeyPath' to enable TLS for the metrics endpoint, or none to disable it.")
+	//}
+
+	// No ServerCrt => Expose HTTP endpoint
+	//if opts.ServerCrtPath == "" {
+	//go http.ListenAndServe(fmt.Sprintf(":%v", "2112"), nil)
+	//return
+	//}
+	// else: ServerCrt provided, expose HTTPS endpoint
+	go http.ListenAndServeTLS(fmt.Sprintf(":%v", 2112), "../server.crt", "../server.key", nil)
+}
+
+func basicAuthHandler(h http.Handler, expectedUserNameHash [32]byte, expectedPasswordHash [32]byte) http.HandlerFunc {
+	return func(rw http.ResponseWriter, r *http.Request) {
+		user, pass, ok := r.BasicAuth()
+		if ok {
+			userHash := sha256.Sum256([]byte(user))
+			passHash := sha256.Sum256([]byte(pass))
+			validUser := subtle.ConstantTimeCompare(userHash[:], expectedUserNameHash[:]) == 1
+			validPass := subtle.ConstantTimeCompare(passHash[:], expectedPasswordHash[:]) == 1
+			if validPass && validUser {
+				h.ServeHTTP(rw, r)
+				return
+			}
+		}
+		http.Error(rw, "No/Invalid Credentials", http.StatusUnauthorized)
 	}
 }

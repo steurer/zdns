@@ -16,6 +16,7 @@ package miekg
 
 import (
 	"errors"
+	"github.com/zmap/zdns/metrics"
 	"net"
 	"regexp"
 	"strings"
@@ -330,9 +331,18 @@ func DoLookupWorker(udp *dns.Client, tcp *dns.Client, conn *dns.Conn, q Question
 		res.Protocol = "udp"
 		if conn != nil {
 			dst, _ := net.ResolveUDPAddr("udp", nameServer)
+
+			metrics.M.QueriesInflight.Inc()
+			metrics.M.IncSentUDPQueries(false)
 			r, _, err = udp.ExchangeWithConnTo(m, conn, dst)
+			metrics.M.QueriesInflight.Dec()
+			metrics.M.IncRecUDPQueries(false)
 		} else {
+			metrics.M.QueriesInflight.Inc()
+			metrics.M.IncSentUDPQueries(false)
 			r, _, err = udp.Exchange(m, nameServer)
+			metrics.M.QueriesInflight.Dec()
+			metrics.M.IncRecUDPQueries(false)
 		}
 		// if record comes back truncated, but we have a TCP connection, try again with that
 		if r != nil && (r.Truncated || r.Rcode == dns.RcodeBadTrunc) {
@@ -344,7 +354,11 @@ func DoLookupWorker(udp *dns.Client, tcp *dns.Client, conn *dns.Conn, q Question
 		}
 	} else {
 		res.Protocol = "tcp"
+		metrics.M.QueriesInflight.Inc()
+		metrics.M.IncSentUDPQueries(false)
 		r, _, err = tcp.Exchange(m, nameServer)
+		metrics.M.QueriesInflight.Inc()
+		metrics.M.IncSentUDPQueries(false)
 	}
 	if err != nil || r == nil {
 		if nerr, ok := err.(net.Error); ok {
@@ -433,8 +447,13 @@ func (s *Lookup) retryingLookup(q Question, nameServer string, recursive bool) (
 			if s.Factory.TCPClient != nil {
 				s.Factory.TCPClient.Timeout = origTimeout
 			}
+
+			metrics.M.TrackResponse(result.Flags.Opcode, result.Flags.Truncated, err, true)
 			return result, status, (i + 1), err
 		}
+
+		metrics.M.TrackResponse(result.Flags.Opcode, result.Flags.Truncated, err, false)
+
 		if s.Factory.Client != nil {
 			s.Factory.Client.Timeout = 2 * s.Factory.Client.Timeout
 		}
@@ -458,6 +477,8 @@ func (s *Lookup) cachedRetryingLookup(q Question, nameServer, layer string, dept
 	cachedResult, ok := s.Factory.Factory.IterativeCache.GetCachedResult(q, false, depth+1, s.Factory.ThreadID)
 	if ok {
 		isCached = true
+
+		metrics.M.Hits.Inc()
 		return cachedResult, isCached, zdns.STATUS_NOERROR, 0, nil
 	}
 
@@ -502,9 +523,12 @@ func (s *Lookup) cachedRetryingLookup(q Question, nameServer, layer string, dept
 		cachedResult, ok = s.Factory.Factory.IterativeCache.GetCachedResult(qAuth, true, depth+2, s.Factory.ThreadID)
 		if ok {
 			isCached = true
+			metrics.M.Hits.Inc()
 			return cachedResult, isCached, zdns.STATUS_NOERROR, 0, nil
 		}
 	}
+
+	metrics.M.Misses.Inc()
 
 	// Alright, we're not sure what to do, go to the wire.
 	s.VerboseLog(depth+2, "Wire lookup for name: ", q.Name, " (", q.Type, ") at nameserver: ", nameServer)
